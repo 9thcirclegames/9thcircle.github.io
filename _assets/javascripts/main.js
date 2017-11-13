@@ -1,7 +1,4 @@
-//= require vendor/jquery
 //= require bootstrap
-//= require vendor/jquery.easing
-//= require vendor/classie
 //= require vendor/jqBootstrapValidation
 //= require vendor/cbpAnimatedHeader
 
