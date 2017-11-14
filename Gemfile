@@ -18,7 +18,7 @@ ruby RUBY_VERSION
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-assets'
-  gem 'bootstrap'
+  gem 'bootstrap-sass'
   gem 'autoprefixer-rails'
   gem 'font-awesome-sass'
   gem 'jekyll-sitemap'
