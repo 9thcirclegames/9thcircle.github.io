@@ -1,6 +1,6 @@
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -42,11 +42,11 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">{{ site.data.template.copy.home.leadin }}</div>
+                <div class="intro-heading">{{ site.data.template.copy.home.heading }}</div>
+                <a href="#services" class="page-scroll btn btn-xl">{{ site.data.template.copy.home.ourgames }}</a>
             </div>
         </div>
     </header>
@@ -55,4 +55,3 @@
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-

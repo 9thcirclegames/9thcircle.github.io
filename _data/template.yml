@@ -1,7 +1,7 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503   
+  secondary: fec503
   secondary-dark: 333
   muted: 777
 
@@ -9,3 +9,11 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+
+# Copy Elements
+copy:
+  home:
+    leadin: '9th Circle Games'
+    heading: 'Brand new worlds'
+    ourgames: 'Discover our Games'
+    joinus: 'Join Us!'
